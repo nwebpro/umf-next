@@ -24,7 +24,7 @@ const FormInput = ({ name, type, size, value, id, placeholder, validation, label
 				name={ name }
 				render={({ field }) => (
 					<Input 
-						{...field}
+						{ ...field }
 						type={ type }
 						size={ size }
 						placeholder={ placeholder }
